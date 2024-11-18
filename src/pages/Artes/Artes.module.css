@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerimg {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.items {
+        position: relative;
+        margin: 2rem;
+    & img {
+        width: 200px;
+        max-height: 250px;
+        border: 1px solid #7EDACE;
+        border-radius: 16px;
+        transition-duration: 0.3s;
+    } & img:hover {
+        opacity: 0.8;
+        transition-duration: 0.3s;
+    }
+    & h2 {
+        font-family: 'league spartan';
+        font-size: 2rem;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        font-size: 2.5rem;
+        transition-duration: .5s;
+        color: rgb(255, 192, 231);
+        text-shadow: 0.9px 0.9px #000;
+    }
+}

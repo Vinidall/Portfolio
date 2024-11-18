@@ -1,0 +1,24 @@
+.items {
+    position: relative;
+    & img {
+        width: 200px;
+        margin: 1rem;
+        border: 1px solid #7EDACE;
+        border-radius: 10px;
+        max-height: 250px;
+    }
+}
+
+.containerimg {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

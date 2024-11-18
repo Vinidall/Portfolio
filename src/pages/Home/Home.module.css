@@ -1,0 +1,39 @@
+.container { 
+    display: flex;
+    justify-content: center;
+}
+
+.containerImg{
+    margin: 1rem;
+    transition-duration: 0.5s;
+    position: relative;
+    & img {
+        width: 250px;
+        height: 250px;
+        border-radius: 16px;
+        border: 1px solid #7EDACE;
+
+    } &:hover {
+        opacity: 0.8;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    } &:hover .menuName {
+        color: rgb(255, 192, 231);
+        text-shadow: 0.6px 0.6px #7EDACE;
+        transition-duration: .5s ease-in-out;
+    }
+}
+
+.menuName {
+    font-family: 'League Spartan';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 0.9px 0.9px #000;
+    transition-duration: .5s;
+}
+

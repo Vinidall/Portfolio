@@ -1,0 +1,22 @@
+.cont {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    width: 80%;
+    flex-direction: row-reverse;
+    margin: 2rem 0px;
+    & img { 
+        width: 400px;
+        border-radius: 10px;
+        border: 1px solid #7EDACE;
+    } & p {
+        font-size: 1.4rem;
+        font-family: 'League Spartan';
+    }
+}
+
+.h1sobre {
+    margin-top: 2rem;
+}

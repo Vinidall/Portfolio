@@ -1,0 +1,40 @@
+.containerw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 280px;
+    height: 290px;
+    background-color: rgba(199, 199, 199, 0.315);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.items {
+    border: 1px solid #53535342;
+    border-radius: 15px;
+    
+    & img {
+        width: 250px;
+        max-height: 250px;
+        border-radius: 15px;
+    }
+
+    & h2 {
+        text-align: center;
+        font-family: 'League Spartan';
+    }
+}

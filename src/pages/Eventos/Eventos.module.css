@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    margin: 2rem 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 300px;
+    border: 1px solid #7EDACE;
+    border-radius: 10px;
+}
+
+.container img:last-child {
+    margin: 0px 3rem;
+}
+
+h1 {
+    margin: 1rem 0px;
+    text-align: center;
+    font-family: 'League Spartan';
+}
